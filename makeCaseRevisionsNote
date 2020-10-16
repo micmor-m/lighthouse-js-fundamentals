@@ -1,0 +1,14 @@
+makecase revisios note:
+
+makeCaseRev0	the priority for the casetype is not check in case of array
+makeCaseRev1	priority for the casetype is check in case of array,
+		but to make it easy to put vovwel and consonant in the middle or ordered array
+		all the high priority cases and somaller priority cases are swapped by.push
+makeCase 	if the final version. It works base on priority and does not swap the case request if they have the same priority.
+              
+
+Comments:          
+Main difficulty to understand how to create an array of functions. 
+Then how to re-arrange the array case at the input of the function base on the precedence. 
+I am not sure if I understood completely the priority requirement and therefore I may not consider all cases. 
+I assume some refactoring is required.
